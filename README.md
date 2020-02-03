@@ -23,7 +23,7 @@ Alternatively, install via Composer:
       "url": "https://github.com/Crusse/wp-dependency-visualizer.git"
     }
   ],
-  "require": {
+  "require-dev": {
     "crusse/wp-dependency-visualizer": "dev-master"
   }
 }
