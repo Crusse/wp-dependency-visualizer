@@ -439,7 +439,7 @@ function print_identifier_usage_chord_graph( array $identifierTypes ) {
             {
               from: <?= json_encode( $fromPlugin ) ?>,
               to: <?= json_encode( $toPlugin ) ?>,
-              value: <?= max( $dependencyCount, 2 ) /* We limit the minimum value so that the thinnest links are still wide enough to look good */ ?>,
+              value: <?= $dependencyCount ?>,
             },
             <?php
           }
