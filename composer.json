@@ -1,0 +1,9 @@
+{
+  "name": "crusse/wp-dependency-visualizer",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-only",
+  "require": {
+    "nikic/php-parser": "^4.3",
+    "php": "^7.0.0"
+  }
+}
