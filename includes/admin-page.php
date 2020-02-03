@@ -1,7 +1,7 @@
 <?php
 namespace DependencyVisualizer;
 
-require_once __DIR__ .'/includes/buttons.php';
+require_once __DIR__ .'/buttons.php';
 
 $allIdentifierTypes = [ 'a', 'fi', 'c', 'fn' ];
 
